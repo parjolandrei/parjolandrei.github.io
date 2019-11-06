@@ -1,0 +1,51 @@
+main{
+    background-color:black;
+    color:white;
+    font-size:1.7rem;
+    font-family: 'Exo', sans-serif;
+    padding:20px;
+}
+h1{
+    text-align:center;
+}
+form{
+    margin: 0 auto;
+    width:400px;
+    padding: 1em;
+    border: 1px solid #CCC;
+    animation-name:myanimation;
+    animation-duration:1.5s;
+    position:relative;
+}
+form div + div {
+    margin-top: 1em;
+  }
+main  label{
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+  }
+  input,textarea{
+      width:300px;
+      box-sizing:border-box;
+      border: 1px solid #999
+  }
+  textarea{
+      vertical-align: top;
+      height: 5em;
+  }
+  button{
+      margin-left: .5em;
+  }
+  main{
+      height: 60vh;
+  }
+@keyframes myanimation{
+    0%{left:-200%;}
+    100%{left:0%;}
+}
+@media (max-width:700px){
+	main{
+		height:auto;
+	}
+}

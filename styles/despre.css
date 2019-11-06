@@ -1,0 +1,28 @@
+main{
+
+    background-color:black;
+    color:white;
+    font-size:1.7rem;
+    font-family: 'Exo', sans-serif;
+    padding:20px;
+}
+#carusel{
+
+   margin:0px 10px;
+    display:inline-block;
+    width:700px;
+
+}
+main p {display:inline-block;}
+
+@media (max-width:768px){
+    #carusel{
+        display:block;
+        width:500px;
+        margin:10px 10px;
+        
+    }
+    main{
+        padding: 0;
+    }
+}
